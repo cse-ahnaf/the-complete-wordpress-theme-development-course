@@ -1,0 +1,12 @@
+<?php if (is_front_page() ) { 
+dynamic_sidebar('posts'); 
+} elseif (is_home() ) { 
+ wp_nav_menu( array( 
+               'menu' => 'Blog Menu' ) ); 
+ } elseif (is_page_template() ) { 
+ echo 'I know how to build page templates'; 
+} elseif(is_single() ||  is_page() ) { 
+ echo 'This page is single and needs a partner'; 
+} else { 
+ echo ‘This page is neither the front page, blog page, built with a template or single'; 
+}?> 

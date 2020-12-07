@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu');
+
+header {
+  margin-top: 10px;
+}
+
+.site-branding::after {
+	content: "";
+	clear:both;
+	display: block;
+}
+
+.site-branding .widget {
+	margin-bottom:0;
+}
+
+
+/* Top Menu */
+
+.menu-top-menu-container {
+  background-color: #000;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menu-top-menu-container ul {
+	margin:0;
+	padding:0;
+}
+
+.menu-top-menu-container li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0;
+  padding: 2px 4px;
+  position: relative;
+}
+
+
+.menu-top-menu-container li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.menu-top-menu-container > ul > li::after {
+  color: #555;
+  content: "/";
+}
+
+
+.menu-top-menu-container li.menu-item-has-children:hover .sub-menu {
+	display:block;
+}
+
+
+.sub-menu {
+  background-color: #000;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  display:none;
+}
+
+.sub-menu li {
+	display: block;
+}
+
+
+.menu-top-menu-container .sub-menu a {
+	font-size: 18px;
+}
+
+/* Header Sidebar */
+
+.widget.sfsi_plus {
+  float: right;
+}
+
+.widget.sfsi_plus h3{
+  margin:0;
+}
+
+.sfsiplus_norm_row {
+	position: relative !important;
+}
+
+#sfsi_holder {
+	display:none !important;
+}
+
+/* Logo */
+
+.site-logo {
+  margin-top: 40px;
+}
+
+h2.easylogo {
+	margin:0;
+}
+
+
+/* Main Navigation */
+
+
+.main-navigation {
+  clear: both;
+  display: block;
+  float: none;
+  text-align: center;
+}
+
+.main-navigation li {
+  display: inline-block;
+  float: none;
+}
+
+.main-navigation a {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
