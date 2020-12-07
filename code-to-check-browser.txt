@@ -1,0 +1,22 @@
+
+<?php
+global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4,
+$is_safari, $is_chrome, $is_iphone;
+if ( $is_lynx ) {
+echo "You are using Lynx";
+}elseif ( $is_gecko ) {
+echo "You are using Firefox";
+}elseif ( $is_IE ) {
+echo "You are using Internet Explorer";
+}elseif ( $is_opera ) {
+echo "You are using Opera";
+}elseif ( $is_NS4 ) {
+echo "You are using Netscape";
+}elseif ( $is_safari ) {
+echo "You are using Safari";
+}elseif ( $is_chrome ) {
+echo "You are using Chrome";
+}elseif ( $is_iphone ) {
+echo "You are using an iPhone";
+}
+?>
